@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linear_layout">
+        <TextView
+            android:id="@+id/song_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="34sp"
+            android:textColor="@color/black"
+            tools:text="Song"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/singer_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Singer"
+            android:textSize="31sp"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="17dp"
+            android:text="Play"
+            android:textColor="@color/black"
+            android:textSize="31sp" />
+    </LinearLayout>
+</RelativeLayout>

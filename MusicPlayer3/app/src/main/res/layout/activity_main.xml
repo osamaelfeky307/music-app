@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#E6B0AA">
+    <TextView
+        android:id="@+id/Adele_albums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adele Albums"
+        android:background="#EC7063"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FF000005 "
+        android:textSize="34sp"
+        android:layout_margin="19dp" />
+    <TextView
+        android:id="@+id/Sia_Albums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sia Albums"
+        android:background="#EC7063"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FF000005 "
+        android:textSize="34sp"
+        android:layout_margin="19dp"/>
+    <TextView
+        android:id="@+id/Martin_Albums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Martin garrix albums"
+        android:background="#EC7063"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FF000005 "
+        android:textSize="34sp"
+        android:layout_margin="19dp"/>
+</LinearLayout>
